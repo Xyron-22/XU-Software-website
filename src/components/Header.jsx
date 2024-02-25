@@ -14,7 +14,7 @@ const Header = () => {
           <RiMenuFoldLine onClick={() => setToggleMenu(!toggleMenu)} className='text-4xl md:text-5xl text-white'/>
         </div>
         <div className={`w-full lg:w-auto my-auto lg:inline left-0 top-[10vh] lg:top-0 absolute lg:relative ${toggleMenu ? "inline bg-black bg-opacity-50 backdrop-blur-sm" : "hidden"}`}>
-          <ul className={`flex lg:justify-end lg:flex-row font-bold text-white text-xl cursor-pointer flex-col`}>
+          <ul className={`flex lg:justify-end lg:flex-row font-bold text-white text-xl cursor-pointer flex-col`} onClick={() => setToggleMenu(!toggleMenu)}>
             <li className='m-3 p-1 rounded lg:hover:scale-110 hover:text-[#535bf2]'><a href='#about'>About</a></li>
             <li className='m-3 p-1 rounded lg:hover:scale-110 hover:text-[#535bf2]'><a>Projects</a></li>
             <li className='m-3 p-1 rounded lg:hover:scale-110 hover:text-[#535bf2]'><a>Products</a></li>

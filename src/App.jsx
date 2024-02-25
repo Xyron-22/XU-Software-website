@@ -24,10 +24,23 @@ function App() {
         <section className='w-full min-h-[50vh] bg-[#222b3c] flex flex-col items-center p-4'>
           <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold' id='about'>About Us</h1>
           <p className='text-center lg:w-[70%] font-semibold'>We are a team of developers that offer software solutions, Founded in 2023. In XU Software Solutions we provide software design, development, and deployment, fully customized to tailor the needs and requirements of our clients, users, and partners. We create Software solutions for businesses and other industry. Our products and services are built from scratch with various latest techonologies chosen to best suit the requirements so we can give seamless software experience to our customers.</p>
+          <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold'>Our Mission</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ea eligendi cumque, animi tempora cum provident temporibus iusto fuga molestias, accusamus eum, in impedit. Rerum fugiat necessitatibus quisquam assumenda possimus?</p>
+          <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold'>Our Vision</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ea eligendi cumque, animi tempora cum provident temporibus iusto fuga molestias, accusamus eum, in impedit. Rerum fugiat necessitatibus quisquam assumenda possimus?</p>
         </section>
-        {/* <section className='w-full h-[86vh] bg-[#222b3c]'>
-
-        </section> */}
+        <section className='w-full h-[86vh] bg-white'>
+          <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold text-blue' id='about'>Projects</h1>
+        </section>
+        <section className='w-full h-[86vh] bg-black'>
+          <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold text-blue' id='about'>Products</h1>
+        </section>
+        <section className='w-full h-[86vh] bg-blue'>
+          <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold text-white' id='about'>Services</h1>
+        </section>
+        <section className='w-full h-[86vh] bg-white'>
+          <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold text-black' id='about'>Developers</h1>
+        </section>
       </div>
     </>
   )

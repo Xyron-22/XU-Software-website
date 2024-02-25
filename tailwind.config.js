@@ -17,6 +17,11 @@ export default {
       lg: '976px',
       xl: '1440px',
     },
+    colors: {
+      'blue': "#535bf2",
+      'white': "#FFFFFF",
+      'black': "#000000"
+    }
   },
   plugins: [],
 }
