@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'headerBackground': "url('./../src/assets/header-bg.jpg')"
+        'headerBackground': "url('./../src/assets/header-bg.jpg')",
+        'projectsBackground': "url('./../src/assets/projectsBackground.jpg')"
       }
     },
     screens: {
