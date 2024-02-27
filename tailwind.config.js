@@ -8,7 +8,8 @@ export default {
     extend: {
       backgroundImage: {
         'headerBackground': "url('./../src/assets/header-bg.jpg')",
-        'projectsBackground': "url('./../src/assets/projectsBackground.jpg')"
+        'projectsBackground': "url('./../src/assets/projectsBackground.jpg')",
+        'waveBackground': "url('./../src/assets/layered-waves-haikei.svg')"
       }
     },
     screens: {
@@ -21,7 +22,8 @@ export default {
     colors: {
       'blue': "#535bf2",
       'white': "#FFFFFF",
-      'black': "#000000"
+      'black': "#000000",
+      'gray': "#222b3c"
     }
   },
   plugins: [],

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
+import sampleLogo from "./assets/sample-logo.jpg"
 
 function App() {
 
@@ -30,13 +31,14 @@ function App() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ea eligendi cumque, animi tempora cum provident temporibus iusto fuga molestias, accusamus eum, in impedit. Rerum fugiat necessitatibus quisquam assumenda possimus?</p>
         </section>
         <section className='w-full min-h-[60vh] bg-projectsBackground bg-center bg-no-repeat bg-cover bg-blend-darken'>
-          <div className='bg-black bg-opacity-60 w-full min-h-[60vh] p-4 pt-10'>
+          <div className='bg-black bg-opacity-60 w-full min-h-[60vh] p-4 pt-10 flex flex-col items-center'>
             <h1 className='text-center text-2xl md:text-4xl font-bold text-white'>We've partnered with</h1>
+            <img src={sampleLogo} alt='company-image' className='w-[40%] md:w-[10%]'></img>
           </div>
         </section>
-        <section className='w-full min-h-[25vh] bg-white'>
-          <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold text-blue'>Products</h1>
-          <p>Coming soon...</p>
+        <section className='w-full min-h-[60vh] bg-white bg-waveBackground bg-no-repeat bg-cover bg-bottom'>
+          <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold text-white'>Products</h1>
+          <p className='text-black'>Coming soon...</p>
         </section>
         <section className='w-full h-[86vh] bg-blue'>
           <h1 className='text-center m-4 mt-10 text-2xl md:text-4xl font-bold text-white'>Services</h1>
