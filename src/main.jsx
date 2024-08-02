@@ -5,10 +5,14 @@ import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import './index.css'
 
+import { ThemeProvider } from "@material-tailwind/react";
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <ThemeProvider>
     <Header></Header>
     <App/>
     <Footer></Footer>
+    </ThemeProvider>
   </React.StrictMode>,
 )
