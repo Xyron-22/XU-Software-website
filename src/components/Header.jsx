@@ -23,13 +23,13 @@ const Header = () => {
   }, []);
 
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 text-lightColor">
       <Typography
         as="li"
         variant="large"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center hover:text-white">
           Home
         </a>
       </Typography>
@@ -38,7 +38,7 @@ const Header = () => {
         variant="large"
         className="p-1 font-normal"
       >
-        <a href="#about" className="flex items-center">
+        <a href="#about" className="flex items-center hover:text-white">
           About
         </a>
       </Typography>
@@ -47,7 +47,7 @@ const Header = () => {
         variant="large"
         className="p-1 font-normal"
       >
-        <a href="#works" className="flex items-center">
+        <a href="#works" className="flex items-center hover:text-white">
           Works
         </a>
       </Typography>
@@ -56,7 +56,7 @@ const Header = () => {
         variant="large"
         className="p-1 font-normal"
       >
-        <a href="#services" className="flex items-center">
+        <a href="#services" className="flex items-center hover:text-white">
           Services
         </a>
       </Typography>
@@ -65,7 +65,7 @@ const Header = () => {
         variant="large"
         className="p-1 font-normal"
       >
-        <a href="#contact" className="flex items-center">
+        <a href="#contact" className="flex items-center hover:text-white">
           Contact
         </a>
       </Typography>
