@@ -2,11 +2,9 @@ import React, {useState} from 'react'
 import { RiMenuFoldLine } from "react-icons/ri";
 import {
   Navbar,
-  MobileNav,
   Typography,
-  Button,
   IconButton,
-  Card,
+  MobileNav,
 } from "@material-tailwind/react";
 
 
@@ -26,7 +24,7 @@ const Header = () => {
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 text-lightColor">
       <Typography
         as="li"
-        variant="large"
+        variant="lead"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center hover:text-white">
@@ -35,7 +33,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="large"
+        variant="lead"
         className="p-1 font-normal"
       >
         <a href="#about" className="flex items-center hover:text-white">
@@ -44,7 +42,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="large"
+        variant="lead"
         className="p-1 font-normal"
       >
         <a href="#works" className="flex items-center hover:text-white">
@@ -53,7 +51,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="large"
+        variant="lead"
         className="p-1 font-normal"
       >
         <a href="#services" className="flex items-center hover:text-white">
@@ -62,7 +60,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="large"
+        variant="lead"
         className="p-1 font-normal"
       >
         <a href="#contact" className="flex items-center hover:text-white">
@@ -128,9 +126,8 @@ const Header = () => {
         </div>
         <MobileNav open={openNav}>
           {navList}
-        </MobileNav>
+        </MobileNav >
         </div>
-      
       </Navbar>
     </>
   )

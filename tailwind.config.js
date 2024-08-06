@@ -34,6 +34,8 @@ export default withMT({
       "lightColor": "#7995A7",
       "mediumColor": "#4F616C",
       "whiteSmoke": "#DCDCDC",
+      "limeGreen": "#00ff00",
+      "redBrick": "#b22222"
     }
   },
   plugins: [],

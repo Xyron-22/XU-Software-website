@@ -19,7 +19,7 @@ const Footer = () => {
           {contactData.map(({ title, items }) => (
             <ul key={title}>
               <Typography
-                variant="lg"
+                variant="paragraph"
                 color='white'
                 className="mb-3 font-bold"
               >
