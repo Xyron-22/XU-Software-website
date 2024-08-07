@@ -11,6 +11,7 @@ import {
 import { FaLinkedin, FaPhoneAlt, FaCheck } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaSquareUpwork, FaXmark } from "react-icons/fa6";
+import { IoIosSend } from "react-icons/io";
 
 const ContactSection = () => {
 
@@ -78,7 +79,7 @@ const ContactSection = () => {
                   <div className='my-2 w-[80%]'>
                     <Textarea name="message" label='Message' variant='standard' className='w-full h-32 resize-none text-black' required></Textarea>
                   </div>
-                  <Button type='submit' variant='gradient' className='bg-blue mb-5 rounded-none' disabled={disableButtons}>Submit</Button>
+                  <Button type='submit' variant='gradient' className='bg-blue mb-5 rounded-none flex items-center gap-2 pl-4' disabled={disableButtons}><IoIosSend className='text-xl'></IoIosSend>Send</Button>
                </form>
               </motion.div>
               <motion.div 

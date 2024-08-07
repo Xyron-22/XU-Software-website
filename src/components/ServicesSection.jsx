@@ -37,8 +37,8 @@ const ServicesSection = () => {
             }}
             >
             <Card className="mt-6 w-full md:w-96 h-[550px] rounded-none bg-medium relative overflow-hidden">
-              <div className={`transition-all duration-1000 ${toggle === index + 1 && "-translate-y-[19.2rem]"}`}>
-            <CardHeader color="blue-gray" className="relative h-80 rounded-none">
+              <div className={`transition-all duration-1000 ${toggle === index + 1 && "-translate-y-[26.8rem]"}`}>
+            <CardHeader color="blue-gray" className="relative h-[440px] rounded-none">
               <img
                 className='object-cover object-bottom w-full h-full'
                 src={imageSource}

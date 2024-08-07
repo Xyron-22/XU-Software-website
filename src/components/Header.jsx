@@ -6,6 +6,7 @@ import {
   IconButton,
   MobileNav,
 } from "@material-tailwind/react";
+import { motion } from 'framer-motion';
 
 
 
@@ -24,7 +25,7 @@ const Header = () => {
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 text-lightColor">
       <Typography
         as="li"
-        variant="lead"
+        variant="h6"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center hover:text-white">
@@ -33,7 +34,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="lead"
+        variant="h6"
         className="p-1 font-normal"
       >
         <a href="#about" className="flex items-center hover:text-white">
@@ -42,7 +43,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="lead"
+        variant="h6"
         className="p-1 font-normal"
       >
         <a href="#works" className="flex items-center hover:text-white">
@@ -51,7 +52,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="lead"
+        variant="h6"
         className="p-1 font-normal"
       >
         <a href="#services" className="flex items-center hover:text-white">
@@ -60,7 +61,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="lead"
+        variant="h6"
         className="p-1 font-normal"
       >
         <a href="#contact" className="flex items-center hover:text-white">
@@ -74,13 +75,40 @@ const Header = () => {
     <>
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 lg:py-4 bg-black bg-opacity-100 border-none">
         <div className='container mx-auto'>
-        <div className="flex items-center justify-between text-white">
+        <div className="flex items-center justify-between text-white">           
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
-            variant='h4'
+            className="mr-4 cursor-pointer py-1.5 px-4 font-medium flex items-center gap-3"
+            variant='lead'
           >
+            <motion.div 
+              variants={{
+                hidden: { opacity: 0},
+                visible: { opacity: 1}
+              }}
+              initial="hidden"
+              animate="visible"
+              transition={{
+                duration: 1.5,
+                delay: 0.5
+              }}
+              className='w-8 h-8 bg-white rounded-full'
+            >
+              <motion.div
+                variants={{
+                  hidden: { skewX: -75},
+                  visible: { skewX: -68}
+                }}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  duration: 1.5,
+                  delay: 0.5
+                }}
+                className='rounded-full border-4 border-blue border-l-transparent w-8 h-8 z-50'
+              ></motion.div>
+            </motion.div>
             XU Software
           </Typography>
           <div className="flex items-center gap-4">
