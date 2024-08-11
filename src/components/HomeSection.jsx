@@ -4,7 +4,7 @@ import { Typography } from '@material-tailwind/react'
 
 const HomeSection = () => {
   return (
-    <section className="bg-headerBackground bg-cover bg-no-repeat bg-center w-full min-h-[90vh] flex items-center" id='home'>
+    <section className="bg-headerBackground bg-cover bg-no-repeat bg-center w-full min-h-[92vh] flex items-center" id='home'>
     <motion.div 
       variants={{
         hidden: {opacity: 0, x: 100},

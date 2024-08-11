@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Typography } from '@material-tailwind/react'
-import sampleLogo from "../assets/sample-logo.jpg"
+import portfolioProfile from "../assets/portfolio-profile.jpeg"
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaSquareUpwork } from "react-icons/fa6";
@@ -22,7 +22,7 @@ const AboutSection = () => {
           delay: 0.5
         }}
        className='border border-lightGray p-2 w-fit mx-auto lg:mx-0'>
-        <img alt='this is an image sample' src={sampleLogo} height={400} width={400} className='overflow-hidden'></img>
+        <img alt='Profile picture' src={portfolioProfile} height={400} width={400} className='overflow-hidden'></img>
       </motion.div>
       <motion.div
          variants={{

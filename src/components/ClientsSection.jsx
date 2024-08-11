@@ -1,7 +1,6 @@
 import React from 'react'
 import { Typography } from '@material-tailwind/react'
 import westernBrothersLogo from "../assets/westernBrothersLogo.jpg"
-import sampleLogo from "../assets/sample-logo.jpg"
 
 const ClientsSection = () => {
   return (
