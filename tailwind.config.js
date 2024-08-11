@@ -8,10 +8,8 @@ export default withMT({
   theme: {
     extend: {
       backgroundImage: {
-        'headerBackground': "url('./../src/assets/header-bg.jpg')",
-        'projectsBackground': "url('./../src/assets/projectsBackground.jpg')",
-        'waveBackground': "url('./../src/assets/layered-waves-haikei.svg')",
-        'geoBackground': "url('./../src/assets/geometric-background.jpg')",
+        'headerBackground': "url('./../src/assets/header-bg-compressed.jpg')",
+        'geoBackground': "url('./../src/assets/geometric-background-compressed.jpg')",
       }
     },
     screens: {

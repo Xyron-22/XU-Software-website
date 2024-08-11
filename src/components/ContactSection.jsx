@@ -1,12 +1,11 @@
 import React, {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
-import { motion, useScroll } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { 
   Typography,
   Input,
   Button,
   Textarea,
-  Alert
 } from '@material-tailwind/react'
 import { FaLinkedin, FaPhoneAlt, FaCheck } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";

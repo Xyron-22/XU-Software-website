@@ -1,6 +1,6 @@
-import webDevelopmentImage from "../assets/web-dev.jpg"
-import mobileDevelopmentImage from "../assets/mobile-dev.jpg"
-import desktopDevelopmentImage from "../assets/desktop-dev.jpg"
+import webDevelopmentImage from "../assets/web-dev-compressed.jpg"
+import mobileDevelopmentImage from "../assets/mobile-dev-compressed.jpg"
+import desktopDevelopmentImage from "../assets/desktop-dev-compressed.jpg"
 
 export const servicesData = [
     {

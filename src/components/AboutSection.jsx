@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Typography } from '@material-tailwind/react'
-import portfolioProfile from "../assets/portfolio-profile.jpeg"
+import portfolioProfile from "../assets/portfolio-profile-compressed.jpg"
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaSquareUpwork } from "react-icons/fa6";

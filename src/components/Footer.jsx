@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typography } from "@material-tailwind/react";
 import { contactData } from '../data/contact-data';
-import { FaLinkedin, FaGithub, FaFacebook, FaCheck, FaPhoneAlt } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaSquareUpwork } from "react-icons/fa6";
  
