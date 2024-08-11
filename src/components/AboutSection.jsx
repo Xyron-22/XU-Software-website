@@ -9,7 +9,7 @@ import { FaSquareUpwork } from "react-icons/fa6";
 const AboutSection = () => {
   return (
     <section className='w-full py-[5%] bg-gray bg-gradient-to-b from-black gap-2' id='about'>
-    <div className='container mx-auto px-4 flex flex-col lg:flex-row justify-between gap-10'>
+    <div className='container mx-auto px-4 flex flex-col lg:flex-row justify-between gap-10 overflow-hidden'>
       <motion.div
         variants={{
           hidden: {opacity: 0, x: -100},

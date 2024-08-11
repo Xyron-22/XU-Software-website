@@ -1,10 +1,11 @@
 import React from 'react'
+import headerBackground from "../assets/header-bg.jpg"
 import { motion } from 'framer-motion'
 import { Typography } from '@material-tailwind/react'
 
 const HomeSection = () => {
   return (
-    <section className="bg-headerBackground bg-cover bg-no-repeat bg-center w-full min-h-[92vh] flex items-center" id='home'>
+    <section className="bg-cover bg-no-repeat bg-center w-full min-h-[92vh] flex items-center overflow-hidden" style={{backgroundImage: `url(${headerBackground})`}} id='home'>
     <motion.div 
       variants={{
         hidden: {opacity: 0, x: 100},

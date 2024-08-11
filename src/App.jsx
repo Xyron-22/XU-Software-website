@@ -17,8 +17,8 @@ function App() {
     <motion.div className='fixed top-19 left-0 right-0 h-1 bg-blue origin-left z-10' style={{ scaleX }}/>
     <motion.div 
           variants={{
-            hidden: { opacity: 0, y: 0},
-            visible: { opacity: 1, y: 0}
+            hidden: { opacity: 0},
+            visible: { opacity: 1}
           }}
           initial="hidden"
           animate="visible"

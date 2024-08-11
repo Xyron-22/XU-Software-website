@@ -51,7 +51,7 @@ const ContactSection = () => {
 
   return (
     <section className='w-full py-[5%]' id='contact'>
-          <div className='flex flex-col lg1:flex-row w-full m-auto shadow-xl container mx-auto px-4'>
+          <div className='flex flex-col lg1:flex-row w-full m-auto shadow-xl container mx-auto px-4 overflow-hidden'>
               <motion.div 
               variants={{
                 hidden: {opacity: 0, x: -100},
