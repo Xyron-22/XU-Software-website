@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import ContactSection from './components/ContactSection';
 import ServicesSection from './components/ServicesSection';
 import ClientsSection from './components/ClientsSection';
